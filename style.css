@@ -97,6 +97,7 @@ strong:hover {
 .post {
   align-items: flex-start;
   border-radius: 0.8rem;
+  cursor: pointer;
   display: flex;
   gap: 1.3rem;
   padding: 1.8rem 2rem;
