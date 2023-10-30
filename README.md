@@ -1,6 +1,4 @@
-# Name of Project
-
-Short description goes here ...
+# Notifications Page
 
 ## Table of contents
 
