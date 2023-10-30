@@ -38,6 +38,11 @@ header .col-left {
   gap: 0.9em;
 }
 
+strong:hover {
+  color: #09327b;
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
 }
@@ -128,6 +133,11 @@ header .col-left {
   border-radius: 0.5rem;
   margin-top: 1.2rem;
   padding: 1.6rem;
+}
+
+.private-message:hover {
+  background-color: #e5effa;
+  cursor: pointer;
 }
 
 @media all and (min-width: 730px) {
