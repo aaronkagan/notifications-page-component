@@ -23,67 +23,83 @@
       </button>
     </header>
     <section class="posts">
-      <article class="unread-post">
-        <img src="assets/images/avatar-mark-webber.webp" alt="Mark Webber" />
-        <p>
-          <strong>Mark Webber</strong> reacted to your recent post
-          <strong>My first tournament today!</strong>
-        </p>
-        <span>1m ago</span>
-        <span class="unread-icon"></span>
+      <article class="unread-post post">
+        <img class="post-avatar" src="assets/images/avatar-mark-webber.webp" alt="Mark Webber" />
+        <div class="post-text-container">
+          <p class="post-content">
+            <strong class="post-name">Mark Webber</strong> reacted to your recent post
+            <strong>My first tournament today!</strong>
+            <span class="unread-icon"></span>
+          </p>
+          <span class="post-time">1m ago</span>
+        </div>
       </article>
-      <article class="unread-post">
-        <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray" />
-        <p>
-          <strong>Angela Gray</strong> followed you
-        </p>
-        <span>5m ago</span>
-        <span class="unread-icon"></span>
+      <article class="unread-post post">
+        <img class="post-avatar" src="assets/images/avatar-angela-gray.webp" alt="Angela Gray" />
+        <div class="post-text-container">
+          <p class="post-content">
+            <strong class="post-name">Angela Gray</strong> followed you
+            <span class="unread-icon"></span>
+          </p>
+          <span class="post-time">5m ago</span>
+        </div>
       </article>
-      <article class="unread-post">
-        <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson" />
-        <p>
-          <strong>Jacob Thompson</strong> has joined your group
-          <strong>Chess Club</strong>
-        </p>
-        <span>1 day ago</span>
-        <span class="unread-icon"></span>
+      <article class="unread-post post">
+        <img class="post-avatar" src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson" />
+        <div class="post-text-container">
+          <p class="post-content">
+            <strong class="post-name">Jacob Thompson</strong> has joined your group
+            <strong>Chess Club</strong>
+            <span class="unread-icon"></span>
+          </p>
+          <span class="post-time">1 day ago</span>
+        </div>
       </article>
-      <article>
-        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
-        <p>
-          <strong>Rizky Hasanuddin</strong> sent you a private message
-        </p>
-        <span>5 days ago</span>
-        <p class="private-message">
-          Hello, thanks for setting up the Chess Club. I've been a member for
-          a few weeks now and I'm already having lots of fun and improving my
-          game.
-        </p>
+      <article class="post">
+        <img class="post-avatar" src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin" />
+        <div class="post-text-container">
+          <p class="post-content">
+            <strong class="post-name">Rizky Hasanuddin</strong> sent you a private message
+          </p>
+          <span class="post-time">5 days ago</span>
+          <p class="private-message">
+            Hello, thanks for setting up the Chess Club. I've been a member for
+            a few weeks now and I'm already having lots of fun and improving my
+            game.
+          </p>
+        </div>
       </article>
-      <article>
-        <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith" />
-        <p>
-          <strong>Kimberly Smith</strong> commented on your picture
-        </p>
-        <span>1 week ago</span>
-        <img src={chess} alt="Woman playing chess" />
+      <article class="post">
+        <img class="post-avatar" src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith" />
+        <div class="post-text-container flex space-between">
+          <div>
+            <p class="post-content ">
+              <strong class="post-name">Kimberly Smith</strong> commented on your picture
+            </p>
+            <span class="post-time">1 week ago</span>
+          </div>
+          <img class="post-image" src="./assets/images/image-chess.webp" alt="Woman playing chess" />
+        </div>
       </article>
-      <article>
-        <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson" />
-        <p>
-          <strong>Nathan Peterson</strong> reacted to your recent post
-          <strong>5 end-game strategies to increase your win rate</strong>
-        </p>
-        <span>2 weeks ago</span>
+      <article class="post">
+        <img class="post-avatar" src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson" />
+        <div class="post-text-container">
+          <p class="post-content">
+            <strong class="post-name">Nathan Peterson</strong> reacted to your recent post
+            <strong>5 end-game strategies to increase your win rate</strong>
+          </p>
+          <span class="post-time">2 weeks ago</span>
+        </div>
       </article>
-      <article>
-        <img src="assets/images/avatar-anna-kim.webp" Anna Kim" />
-        <p>
-          <strong>Anna Kim</strong> left the group
-          <strong>Chess Club</strong>
-        </p>
-        <span>2 weeks ago</span>
+      <article class="post">
+        <img class="post-avatar" src="assets/images/avatar-anna-kim.webp" Anna Kim" />
+        <div class="post-text-container">
+          <p class="post-content">
+            <strong class="post-name">Anna Kim</strong> left the group
+            <strong>Chess Club</strong>
+          </p>
+          <span class="post-time">2 weeks ago</span>
+        </div>
       </article>
     </section>
   </main>

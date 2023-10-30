@@ -19,6 +19,7 @@ button {
 
 main {
   background-color: #ffffff;
+  font-size: 1.4rem;
   margin: 0 auto;
   max-width: 730px;
   padding: 2.4em 1.6em;
@@ -35,6 +36,14 @@ header .col-left {
   align-items: center;
   display: flex;
   gap: 0.9em;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .header-notifications {
@@ -58,7 +67,7 @@ header .col-left {
   background: none;
   border: none;
   color: #5e6778;
-  font-size: 1.4rem;
+  font-size: inherit;
   font-weight: 500;
 }
 
@@ -80,9 +89,67 @@ header .col-left {
   gap: 0.8rem;
 }
 
-article {
-  align-items: center;
+.post {
+  align-items: flex-start;
   border-radius: 0.8rem;
   display: flex;
+  gap: 1.3rem;
   padding: 1.8rem 2rem;
+}
+
+.post-avatar {
+  width: 3.9rem;
+}
+
+.post-text-container {
+  color: #5e6778;
+  width: 100%;
+}
+
+.post-content {
+}
+
+.post-name {
+  color: #1c202b;
+}
+
+.post-time {
+  color: #939cad;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.post-image {
+  width: 3.9rem;
+}
+
+.private-message {
+  border: 1px solid #dde7ee;
+  border-radius: 0.5rem;
+  margin-top: 1.2rem;
+  padding: 1.6rem;
+}
+
+@media all and (min-width: 730px) {
+  main {
+    border-radius: 1.5em;
+    font-size: 1.6rem;
+    margin: 6.3rem auto;
+  }
+
+  .header-notifications {
+    font-size: 2.4rem;
+  }
+
+  .post {
+    gap: 1.9rem;
+  }
+
+  .post-avatar {
+    width: 4.5rem;
+  }
+
+  .post-time {
+    margin-top: 4px;
+  }
 }
