@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f9fafd;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 730px;
+  padding: 2.4em 1.6em;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+header .col-left {
+  align-items: center;
+  display: flex;
+  gap: 0.9em;
+}
+
+.header-notifications {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.notification-count {
+  background-color: hsla(219, 85%, 26%, 1);
+  border-radius: 0.6rem;
+  color: #fff;
+  display: grid;
+  font-size: 1.6rem;
+  font-weight: 800;
+  height: 2.5rem;
+  place-items: center;
+  width: 3.2rem;
+}
+
+.btn-header {
+  background: none;
+  border: none;
+  color: #5e6778;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.unread-icon {
+  background-color: #f36663;
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+}
+
+.unread-post {
+  background-color: #f9fafd;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+article {
+  align-items: center;
+  border-radius: 0.8rem;
+  display: flex;
+  padding: 1.8rem 2rem;
+}
