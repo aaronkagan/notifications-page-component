@@ -10,6 +10,7 @@ markAsReadBtn.addEventListener('click', () => {
   });
   unreadPosts.forEach((post) => {
     post.classList.remove('unread-post');
+    post.removeEventListener('click', markReadHandler);
   });
 });
 
